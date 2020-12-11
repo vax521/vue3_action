@@ -22,6 +22,7 @@
     "mockjs": "^1.1.0",
     "remixicon": "^2.5.0",
     "vue": "^3.0.4",
+    "vue-luck-draw": "^3.3.2",
     "vue-router": "^4.0.1",
     "vuex": "^4.0.0-rc.2"
   },

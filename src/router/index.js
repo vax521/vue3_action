@@ -91,6 +91,15 @@ export const asyncRoutes = [
           icon: 'test-tube-line',
         },
       },
+      {
+        path: 'luck',
+        name: 'luck',
+        component: () => import('@/views/test/drawReward/LuckDraw'),
+        meta: {
+          title: '幸运抽奖',
+          icon: 'test-tube-line',
+        },
+      },
     ],
   },
   {

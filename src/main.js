@@ -5,6 +5,7 @@ import router from './router'
 import store from './store'
 import 'ant-design-vue/dist/antd.css'
 import '@/vab'
+import LuckDraw from 'vue-luck-draw/vue3'
 /**
  * @author chuzhixin 1204505056@qq.com
  * @description 正式环境默认使用mock，正式项目记得注释后再打包
@@ -14,4 +15,4 @@ if (process.env.NODE_ENV === 'production') {
   mockXHR()
 }
 
-createApp(App).use(store).use(router).use(Antd).mount('#app')
+createApp(App).use(store).use(router).use(Antd).use(LuckDraw).mount('#app')
