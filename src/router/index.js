@@ -91,6 +91,37 @@ export const asyncRoutes = [
           icon: 'test-tube-line',
         },
       },
+      {
+        path: 'css_desecret',
+        name: 'css_desecret',
+        component: () => import('@/views/test/css_desecret'),
+        meta: {
+          title: 'css解密',
+          icon: 'test-tube-line',
+        },
+      },
+      {
+        path: 'chapter2',
+        name: 'chapter2',
+        component: () =>
+          import(
+            '@/views/test/css_desecret/chapter/chapter2_backgroudAndBorder'
+          ),
+        meta: {
+          title: '第二章',
+          icon: 'test-tube-line',
+        },
+      },
+      {
+        path: 'chapter3',
+        name: 'chapter3',
+        component: () =>
+          import('@/views/test/css_desecret/chapter/chapter3_shape'),
+        meta: {
+          title: '第三章',
+          icon: 'test-tube-line',
+        },
+      },
     ],
   },
   {
