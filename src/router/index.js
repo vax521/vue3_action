@@ -122,6 +122,16 @@ export const asyncRoutes = [
           icon: 'test-tube-line',
         },
       },
+      {
+        path: 'chapter4',
+        name: 'chapter4',
+        component: () =>
+          import('@/views/test/css_desecret/chapter/chapter7_buju'),
+        meta: {
+          title: '第四章',
+          icon: 'test-tube-line',
+        },
+      },
     ],
   },
   {
