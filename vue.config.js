@@ -99,8 +99,8 @@ module.exports = {
       .test(/\.svg$/)
       .include.add(resolve('src/icon/remixIcon'))
       .end()
-      .use('svg-sprite-loader')
-      .loader('svg-sprite-loader')
+      .use('url-loader')
+      .loader('url-loader')
       .options({ symbolId: 'remix-icon-[name]' })
       .end()
 

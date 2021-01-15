@@ -100,6 +100,15 @@ export const asyncRoutes = [
           icon: 'test-tube-line',
         },
       },
+      {
+        path: 'svg',
+        name: 'svg',
+        component: () => import('@/views/test/svg'),
+        meta: {
+          title: 'svg-demo',
+          icon: 'test-tube-line',
+        },
+      },
     ],
   },
   {
